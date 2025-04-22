@@ -1,0 +1,11 @@
+{
+  "short_name": "SMU",
+  "name": "Secret Message Unlocker",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "512x512", "type": "image/svg+xml" }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#5D4037"
+}
