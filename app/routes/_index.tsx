@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="text-center space-y-6">
       <motion.h1
-        className="text-4xl md:text-5xl font-extrabold text-brown"
+        className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-brown mb-4"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -22,7 +22,7 @@ export default function Home() {
       </motion.h1>
 
       <motion.p
-        className="text-gray-700 max-w-2xl mx-auto"
+        className="text-gray-700 max-w-xl sm:max-w-2xl mx-auto"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
