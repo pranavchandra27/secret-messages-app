@@ -20,10 +20,10 @@ export default function Navbar() {
   const logo = (
     <div className="flex items-center space-x-2 text-brown text-lg font-bold">
       <span className="text-xl">{meEmoji}</span>
-      <span>{`${meNickname} (${meName})`}</span>
+      <span>{meNickname}</span>
       <span>&</span>
       <span className="text-xl">{herEmoji}</span>
-      <span>{`${herNickname} (${herName})`}</span>
+      <span>{herNickname}</span>
     </div>
   );
 
@@ -52,7 +52,7 @@ export default function Navbar() {
         <ul
           className={`
             absolute top-full left-0 w-full bg-cream border-brown border-b
-            md:static md:flex md:space-x-4 md:border-0 md:bg-transparent
+            md:static md:flex md:space-x-4 md:border-0 md:bg-transparent justify-end
             ${open ? "block" : "hidden"}
           `}
         >
