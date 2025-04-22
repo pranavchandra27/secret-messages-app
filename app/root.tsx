@@ -9,11 +9,12 @@ import {
 import { AnimatePresence, motion } from "framer-motion";
 import type { LinksFunction, MetaFunction } from "@remix-run/node";
 
-import "./i18n";
+import i18n from "./i18n";
 import "./tailwind.css";
 import Navbar from "~/components/Navbar";
 import { AudioProvider } from "./context/AudioContext";
 import { useEffect } from "react";
+import { I18nextProvider } from "react-i18next";
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -71,22 +72,24 @@ export default function App() {
 
   return (
     <AudioProvider>
-      <Layout>
-        <Navbar />
-        <main className="container mx-auto px-4 py-8">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={location.pathname}
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.3 }}
-            >
-              <Outlet />
-            </motion.div>
-          </AnimatePresence>
-        </main>
-      </Layout>
+      <I18nextProvider i18n={i18n}>
+        <Layout>
+          <Navbar />
+          <main className="container mx-auto px-4 py-8">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={location.pathname}
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.3 }}
+              >
+                <Outlet />
+              </motion.div>
+            </AnimatePresence>
+          </main>
+        </Layout>
+      </I18nextProvider>
     </AudioProvider>
   );
 }
