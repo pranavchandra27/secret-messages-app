@@ -1,9 +1,10 @@
-import { useState } from "react";
-import { Menu } from "lucide-react";
+// app/components/Navbar.tsx
 import { Link, useLocation } from "@remix-run/react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { couple } from "~/config";
+import { useState } from "react";
+import { Menu } from "lucide-react";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -11,19 +12,17 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const meEmoji = t(`${couple.meKey}.emoji`);
-  const meName = t(`${couple.meKey}.name`);
-  // const meNickname = t(`${couple.meKey}.nickname`);
+  const meNickname = t(`${couple.meKey}.nickname`);
   const herEmoji = t(`${couple.herKey}.emoji`);
-  const herName = t(`${couple.herKey}.name`);
-  // const herNickname = t(`${couple.herKey}.nickname`);
+  const herNickname = t(`${couple.herKey}.nickname`);
 
   const logo = (
     <div className="flex items-center space-x-2 text-brown text-lg font-bold">
       <span className="text-xl">{meEmoji}</span>
-      <span>{meName}</span>
+      <span>{meNickname}</span>
       <span>&</span>
       <span className="text-xl">{herEmoji}</span>
-      <span>{herName}</span>
+      <span>{herNickname}</span>
     </div>
   );
 
@@ -36,7 +35,8 @@ export default function Navbar() {
 
   return (
     <nav className="bg-cream border-b border-brown shadow-sm">
-      <div className="container mx-auto flex items-center justify-between px-4 py-3">
+      {/* Make this container relative so the absolute dropdown sits correctly */}
+      <div className="container relative mx-auto flex items-center justify-between px-4 py-3">
         {logo}
 
         {/* Mobile menu button */}
@@ -48,12 +48,16 @@ export default function Navbar() {
           <Menu className="h-6 w-6 text-brown" />
         </button>
 
-        {/* Links: hidden on mobile, flex on md+ */}
+        {/* 
+          On mobile: hidden unless open.
+          On md+: always flex 
+        */}
         <ul
           className={`
-            absolute top-full left-0 w-full bg-cream border-brown border-b
-            md:static md:flex md:space-x-4 md:border-0 md:bg-transparent justify-end
-            ${open ? "block" : "hidden"}
+            ${open ? "block" : "hidden"} 
+            md:flex md:items-center 
+            absolute md:static top-full left-0 w-full md:w-auto 
+            bg-cream md:bg-transparent
           `}
         >
           {links.map(({ to, label }) => (
@@ -65,11 +69,15 @@ export default function Navbar() {
             >
               <Link
                 to={to}
-                className={`block px-4 py-2 md:px-3 md:py-0 rounded-lg transition ${
-                  pathname === to
-                    ? "bg-accent text-cream"
-                    : "text-brown hover:bg-accent hover:text-cream"
-                }`}
+                className={`
+                  block px-4 py-2 md:px-3 md:py-0 rounded-lg transition
+                  ${
+                    pathname === to
+                      ? "bg-accent text-cream"
+                      : "text-brown hover:bg-accent hover:text-cream"
+                  }
+                `}
+                onClick={() => setOpen(false)} // close menu on link click
               >
                 {label}
               </Link>
