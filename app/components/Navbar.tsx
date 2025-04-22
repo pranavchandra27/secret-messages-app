@@ -12,18 +12,18 @@ export default function Navbar() {
 
   const meEmoji = t(`${couple.meKey}.emoji`);
   const meName = t(`${couple.meKey}.name`);
-  const meNickname = t(`${couple.meKey}.nickname`);
+  // const meNickname = t(`${couple.meKey}.nickname`);
   const herEmoji = t(`${couple.herKey}.emoji`);
   const herName = t(`${couple.herKey}.name`);
-  const herNickname = t(`${couple.herKey}.nickname`);
+  // const herNickname = t(`${couple.herKey}.nickname`);
 
   const logo = (
     <div className="flex items-center space-x-2 text-brown text-lg font-bold">
       <span className="text-xl">{meEmoji}</span>
-      <span>{meNickname}</span>
+      <span>{meName}</span>
       <span>&</span>
       <span className="text-xl">{herEmoji}</span>
-      <span>{herNickname}</span>
+      <span>{herName}</span>
     </div>
   );
 
