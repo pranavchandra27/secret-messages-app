@@ -15,14 +15,22 @@ export default function Navbar() {
   const meNickname = t(`${couple.meKey}.nickname`);
   const herEmoji = t(`${couple.herKey}.emoji`);
   const herNickname = t(`${couple.herKey}.nickname`);
+  const meName = t(`${couple.meKey}.name`);
+  const herName = t(`${couple.herKey}.name`);
 
   const logo = (
     <div className="flex items-center space-x-2 text-brown text-lg font-bold">
       <span className="text-xl">{meEmoji}</span>
-      <span>{meNickname}</span>
-      <span>&</span>
+      <div className="text-sm">
+        <strong className="font-bold">{meNickname}</strong>{" "}
+        <span className="italic">({meName})</span>
+      </div>
+      <span className="hidden md:inline">&</span>
       <span className="text-xl">{herEmoji}</span>
-      <span>{herNickname}</span>
+      <div className="text-sm">
+        <strong className="font-bold">{herNickname}</strong>{" "}
+        <span className="italic">({herName})</span>
+      </div>
     </div>
   );
 
