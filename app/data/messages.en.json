@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 1",
+    "content": "Even the stars are jealous of how brightly our love shines."
+  },
+  {
+    "id": 2,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 2",
+    "content": "In the quiet of the night, your love is my favorite song."
+  },
+  {
+    "id": 3,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 3",
+    "content": "My heart writes poems about you even when I sleep."
+  },
+  {
+    "id": 4,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 4",
+    "content": "Our love feels like a secret language written in starlight."
+  },
+  {
+    "id": 5,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 5",
+    "content": "Every beat of my heart whispers your name."
+  },
+  {
+    "id": 6,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 6",
+    "content": "Your love is the sunrise that banishes all my shadows."
+  },
+  {
+    "id": 7,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 7",
+    "content": "We paint the distance with daydreams of our embrace."
+  },
+  {
+    "id": 8,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 8",
+    "content": "Our souls share a secret sky where every star is a promise."
+  },
+  {
+    "id": 9,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 9",
+    "content": "Loving you is like reading my favorite poem out loud, every day anew."
+  },
+  {
+    "id": 10,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 10",
+    "content": "In the story of us, you're every chapter's sweetest line."
+  },
+  {
+    "id": 11,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 1",
+    "content": "My day starts and ends with thoughts of you."
+  },
+  {
+    "id": 12,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 2",
+    "content": "Your happiness means the world to me."
+  },
+  {
+    "id": 13,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 3",
+    "content": "I'm so lucky to call you mine."
+  },
+  {
+    "id": 14,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 4",
+    "content": "No matter the distance, you're always right here in my heart."
+  },
+  {
+    "id": 15,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 5",
+    "content": "I fall in love with you all over again every day."
+  },
+  {
+    "id": 16,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 6",
+    "content": "I adore your voice; it's my favorite sound in the world."
+  },
+  {
+    "id": 17,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 7",
+    "content": "My favorite place in the world is in your arms."
+  },
+  {
+    "id": 18,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 8",
+    "content": "Your smile makes my heart do a happy dance."
+  },
+  {
+    "id": 19,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 9",
+    "content": "Forever isn't long enough with you."
+  },
+  {
+    "id": 20,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 10",
+    "content": "You are my dream come true."
+  },
+  {
+    "id": 21,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 1",
+    "content": "Just hearing your name makes me smile."
+  },
+  {
+    "id": 22,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 2",
+    "content": "You make even ordinary moments feel special."
+  },
+  {
+    "id": 23,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 3",
+    "content": "Your laugh is my favorite melody."
+  },
+  {
+    "id": 24,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 4",
+    "content": "I cherish every little thing about you."
+  },
+  {
+    "id": 25,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 5",
+    "content": "You're the best part of my day, every day."
+  },
+  {
+    "id": 26,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 6",
+    "content": "Thank you for being wonderfully you."
+  },
+  {
+    "id": 27,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 7",
+    "content": "I love you more than chocolate loves milk."
+  },
+  {
+    "id": 28,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 8",
+    "content": "You are my daily dose of happiness."
+  },
+  {
+    "id": 29,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 9",
+    "content": "Every love song makes me think of you."
+  },
+  {
+    "id": 30,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 10",
+    "content": "Life is sweeter with you in it."
+  },
+  {
+    "id": 31,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 1",
+    "content": "Send me a selfie wearing your biggest smile!"
+  },
+  {
+    "id": 32,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 2",
+    "content": "I dare you to text me using only emojis for an hour."
+  },
+  {
+    "id": 33,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 3",
+    "content": "Guess what I'm wearing right now? (Wrong answers only!)"
+  },
+  {
+    "id": 34,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 4",
+    "content": "Surprise me: pick a random song for me tonight."
+  },
+  {
+    "id": 35,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 5",
+    "content": "Let's video call tonight under a blanket fort, just because."
+  },
+  {
+    "id": 36,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 6",
+    "content": "Whisper a secret in your next voice note."
+  },
+  {
+    "id": 37,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 7",
+    "content": "Invent a silly nickname for me right now. Go!"
+  },
+  {
+    "id": 38,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 8",
+    "content": "I'm hiding a kiss in this message, find it! 💋"
+  },
+  {
+    "id": 39,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 9",
+    "content": "Text me the first emoji that comes to mind when you think of me."
+  },
+  {
+    "id": 40,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 10",
+    "content": "Let's plan a virtual movie night: you pick the movie, I'll bring the popcorn."
+  },
+  {
+    "id": 41,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 1",
+    "content": "If missing you was a sport, I'd be a world champion."
+  },
+  {
+    "id": 42,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 2",
+    "content": "We go together like chocolate and milk (literally!)."
+  },
+  {
+    "id": 43,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 3",
+    "content": "You're the only one who can make me blush through a phone screen."
+  },
+  {
+    "id": 44,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 4",
+    "content": "My pillow is tired of me pretending it's you."
+  },
+  {
+    "id": 45,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 5",
+    "content": "Stop being so adorable—I'm running out of excuses to tease you."
+  },
+  {
+    "id": 46,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 6",
+    "content": "You're lucky you're cute; otherwise I'd win all our arguments."
+  },
+  {
+    "id": 47,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 7",
+    "content": "I love you even when you're hangry. Now that's real love."
+  },
+  {
+    "id": 48,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 8",
+    "content": "Our video calls should come with popcorn; they're my favorite show."
+  },
+  {
+    "id": 49,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 9",
+    "content": "I tried to write you a song but all I got was 'I love you' on repeat."
+  },
+  {
+    "id": 50,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 10",
+    "content": "You're the WiFi to my heart — completely necessary and a little magic."
+  },
+  {
+    "id": 51,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 1",
+    "content": "I can't focus today; your last selfie is stuck in my head."
+  },
+  {
+    "id": 52,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 2",
+    "content": "Stop occupying my mind—I have things to do, you know. 😉"
+  },
+  {
+    "id": 53,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 3",
+    "content": "Is it hot in here or did you just text me?"
+  },
+  {
+    "id": 54,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 4",
+    "content": "I think my phone is overheating from your hot messages."
+  },
+  {
+    "id": 55,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 5",
+    "content": "Your next kiss better be ready—I've been practicing my surprised face."
+  },
+  {
+    "id": 56,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 6",
+    "content": "I had a clever pickup line, but seeing you online made me forget it."
+  },
+  {
+    "id": 57,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 7",
+    "content": "Do you have any idea how adorable you are? Asking for a friend (me)."
+  },
+  {
+    "id": 58,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 8",
+    "content": "My new favorite hobby is making you blush."
+  },
+  {
+    "id": 59,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 9",
+    "content": "Can't decide what I want more right now: your smile or your kiss. Probably both."
+  },
+  {
+    "id": 60,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 10",
+    "content": "When this distance is over, you owe me an entire weekend of cuddles."
+  },
+  {
+    "id": 61,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 1",
+    "content": "What's one dream you really want us to share someday?"
+  },
+  {
+    "id": 62,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 2",
+    "content": "If we could teleport for a day, where would we go together first?"
+  },
+  {
+    "id": 63,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 3",
+    "content": "What's a song that always makes you think of me?"
+  },
+  {
+    "id": 64,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 4",
+    "content": "Is there a small thing about me you find unexpectedly cute?"
+  },
+  {
+    "id": 65,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 5",
+    "content": "What do you picture when you imagine us ten years from now?"
+  },
+  {
+    "id": 66,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 6",
+    "content": "Which of our memories is your favorite?"
+  },
+  {
+    "id": 67,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 7",
+    "content": "If our love story had a title, what would it be?"
+  },
+  {
+    "id": 68,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 8",
+    "content": "What's something new you'd love to try together?"
+  },
+  {
+    "id": 69,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 9",
+    "content": "How would you describe us in three words?"
+  },
+  {
+    "id": 70,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 10",
+    "content": "What little thing do you miss about me right now?"
+  },
+  {
+    "id": 71,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 1",
+    "content": "Just so you know, I'm wearing that fragrance you love... waiting for your reaction."
+  },
+  {
+    "id": 72,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 2",
+    "content": "I may or may not be thinking of that last kiss right now. (Hint: I am.)"
+  },
+  {
+    "id": 73,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 3",
+    "content": "Careful, my next message might be too hot to handle."
+  },
+  {
+    "id": 74,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 4",
+    "content": "I'm counting the days until I can trace kisses down your neck again."
+  },
+  {
+    "id": 75,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 5",
+    "content": "Thinking about your hands on me is my favorite daydream."
+  },
+  {
+    "id": 76,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 6",
+    "content": "I've got a surprise for you next time we video chat 😉."
+  },
+  {
+    "id": 77,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 7",
+    "content": "Your morning voice is my secret turn-on."
+  },
+  {
+    "id": 78,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 8",
+    "content": "I wish I could pull you into bed with me right now."
+  },
+  {
+    "id": 79,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 9",
+    "content": "Feel free to have naughty dreams about me. I know I'll have them about you."
+  },
+  {
+    "id": 80,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 10",
+    "content": "Just thinking of you makes me bite my lip. You're trouble 😉."
+  },
+  {
+    "id": 81,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 1",
+    "content": "I want to slow dance with you, even if it's just in my living room alone."
+  },
+  {
+    "id": 82,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 2",
+    "content": "The thought of your arms around me is my safe place."
+  },
+  {
+    "id": 83,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 3",
+    "content": "Your last voice note is still tingling in my ears."
+  },
+  {
+    "id": 84,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 4",
+    "content": "When I close my eyes, I feel your fingers interlaced with mine."
+  },
+  {
+    "id": 85,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 5",
+    "content": "Your words trace soft kisses across my mind."
+  },
+  {
+    "id": 86,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 6",
+    "content": "My skin longs for your touch like flowers long for the sun."
+  },
+  {
+    "id": 87,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 7",
+    "content": "Every love letter I never wrote is in the way I kiss you."
+  },
+  {
+    "id": 88,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 8",
+    "content": "Just imagining your breath against my neck gives me chills."
+  },
+  {
+    "id": 89,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 9",
+    "content": "You have a permanent invitation to my dreams every night."
+  },
+  {
+    "id": 90,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 10",
+    "content": "Your gaze on me feels like a warm caress I can't wait to feel for real."
+  },
+  {
+    "id": 91,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 1",
+    "content": "Even on your hardest days, I'm here to hold your hand."
+  },
+  {
+    "id": 92,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 2",
+    "content": "I'm so proud of how strong you are."
+  },
+  {
+    "id": 93,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 3",
+    "content": "Distance is tough, but so are we."
+  },
+  {
+    "id": 94,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 4",
+    "content": "I'm always just one call away, no matter what."
+  },
+  {
+    "id": 95,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 5",
+    "content": "You can always lean on me, even across oceans."
+  },
+  {
+    "id": 96,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 6",
+    "content": "Your feelings are important, and I'm here to listen."
+  },
+  {
+    "id": 97,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 7",
+    "content": "When you feel lonely, remember we're under the same sky."
+  },
+  {
+    "id": 98,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 8",
+    "content": "Your tears are precious to me—I'm here to wipe every one."
+  },
+  {
+    "id": 99,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 9",
+    "content": "We'll get through everything together, one step at a time."
+  },
+  {
+    "id": 100,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 10",
+    "content": "You mean the world to me, never forget that."
+  },
+  {
+    "id": 101,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 1",
+    "content": "Thank you for always standing by my side and being so amazing."
+  },
+  {
+    "id": 102,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 2",
+    "content": "Your support and love mean more to me than anything."
+  },
+  {
+    "id": 103,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 3",
+    "content": "Your smile always brightens my day."
+  },
+  {
+    "id": 104,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 4",
+    "content": "Thank you for sharing your life and your heart with me."
+  },
+  {
+    "id": 105,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 5",
+    "content": "Your kindness and thoughtfulness never cease to surprise me."
+  },
+  {
+    "id": 106,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 6",
+    "content": "The moments we share stay in my heart forever."
+  },
+  {
+    "id": 107,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 7",
+    "content": "Your love is like a warm blanket on cold days."
+  },
+  {
+    "id": 108,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 8",
+    "content": "Your presence always brings me comfort."
+  },
+  {
+    "id": 109,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 9",
+    "content": "Your heart is made of gold, and everyone can see it."
+  },
+  {
+    "id": 110,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 10",
+    "content": "Thank you for being mine and for our special relationship."
+  },
+  {
+    "id": 111,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 1",
+    "content": "Whenever you need me, I'm just a message away."
+  },
+  {
+    "id": 112,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 2",
+    "content": "Even in tough times, I'm here to support you."
+  },
+  {
+    "id": 113,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 3",
+    "content": "Our shared laughs and tears all contribute to our bond."
+  },
+  {
+    "id": 114,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 4",
+    "content": "My heart is always open to you, no matter the situation."
+  },
+  {
+    "id": 115,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 5",
+    "content": "Our friendship is the greatest treasure to me."
+  },
+  {
+    "id": 116,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 6",
+    "content": "The memories we share always give me strength during difficult times."
+  },
+  {
+    "id": 117,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 7",
+    "content": "Your love and support are always with me."
+  },
+  {
+    "id": 118,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 8",
+    "content": "Our adventures together always remind me that we are stronger together."
+  },
+  {
+    "id": 119,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 9",
+    "content": "Our friendship is like a strong bond that never breaks."
+  },
+  {
+    "id": 120,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 10",
+    "content": "The moments we share always remind me how much you mean to me."
+  }
+]

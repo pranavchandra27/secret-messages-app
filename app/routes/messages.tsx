@@ -1,16 +1,42 @@
-// app/routes/messages.tsx
+import { LoaderFunction, data } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import MessageCard from "~/components/MessageCard";
-import type { Message } from "~/types";
-import messages from "~/data/messages.json";
+import type { RawMessage, Message } from "~/types";
+import rawData from "~/data/messages.json";
 
 import AutoSizer from "react-virtualized-auto-sizer";
 import { FixedSizeGrid as Grid } from "react-window";
+import { langCookie } from "~/utils/cookies";
 
-export const loader = async () => messages as Message[];
+function shuffle<T>(array: T[]): T[] {
+  const a = array.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+export const loader: LoaderFunction = async ({ request }) => {
+  // 1) Grab the `lang` cookie from the request
+  const cookieHeader = request.headers.get("Cookie") ?? "";
+  const locale = (await langCookie.parse(cookieHeader)) || "en";
+
+  // 2) Cast and map your raw data into the Message[] shape
+  const raws = rawData as RawMessage[];
+  const messages: Message[] = raws.map((m) => ({
+    id: m.id,
+    type: m.type,
+    emoji: m.emoji,
+    title: m.title,
+    content: locale === "hu" ? m.content_hu : m.content_en,
+  }));
+
+  return shuffle(messages);
+};
 
 export default function MessagesPage() {
   const data = useLoaderData<typeof loader>();

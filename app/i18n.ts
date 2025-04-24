@@ -1,5 +1,8 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import messagesEn from '~/data/messages.en.json'
+import messagesHu from '~/data/messages.hu.json'
+
 
 const resources = {
   en: {
@@ -130,9 +133,32 @@ i18n
     resources,
     fallbackLng: "en",
     lng:
-      typeof window !== "undefined"
-        ? localStorage.getItem("language") || "en"
+      typeof document !== "undefined"
+        ? document.cookie
+          .split("; ")
+          .find((r) => r.startsWith("lang="))
+          ?.split("=")[1] ||
+        localStorage.getItem("language") ||
+        "en"
         : "en",
     interpolation: { escapeValue: false }
+
   });
+
+
+// build id → {title,content} maps
+const enMap = (messagesEn as any[]).reduce((o, m) => {
+  o[m.id] = { title: m.title, content: m.content };
+  return o;
+}, {} as Record<string, { title: string; content: string }>);
+
+const huMap = (messagesHu as any[]).reduce((o, m) => {
+  o[m.id] = { title: m.title, content: m.content };
+  return o;
+}, {} as Record<string, { title: string; content: string }>);
+
+// add under `messages` key
+i18n.addResourceBundle("en", "translation", { messages: enMap }, true, true);
+i18n.addResourceBundle("hu", "translation", { messages: huMap }, true, true);
+
 export default i18n;

@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 1",
+    "content": "Még a csillagok is féltékenyek, milyen fényesen ragyog a szerelmünk."
+  },
+  {
+    "id": 2,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 2",
+    "content": "Az éjszaka csendjében a szerelmed a kedvenc dalom."
+  },
+  {
+    "id": 3,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 3",
+    "content": "A szívem még álmomban is verseket ír rólad."
+  },
+  {
+    "id": 4,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 4",
+    "content": "A szerelmünk olyan, mint egy titkos nyelv, csillagfénnyel írva."
+  },
+  {
+    "id": 5,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 5",
+    "content": "A szívem minden dobbanása a nevedet suttogja."
+  },
+  {
+    "id": 6,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 6",
+    "content": "A szerelmed olyan, mint a napfelkelte, ami elűzi az összes árnyékomat."
+  },
+  {
+    "id": 7,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 7",
+    "content": "Ábrándjainkkal festjük meg a kettőnk közti távolságot."
+  },
+  {
+    "id": 8,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 8",
+    "content": "A lelkeink egy titkos eget osztanak meg, ahol minden csillag egy ígéret."
+  },
+  {
+    "id": 9,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 9",
+    "content": "Téged szeretni olyan, mint mindennap újra felolvasni a kedvenc versemet."
+  },
+  {
+    "id": 10,
+    "type": "poetic",
+    "emoji": "✨",
+    "title": "Poetic Message 10",
+    "content": "A kettőnk történetében te vagy minden fejezet legédesebb sora."
+  },
+  {
+    "id": 11,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 1",
+    "content": "A napom a veled kapcsolatos gondolatokkal indul és azzal is ér véget."
+  },
+  {
+    "id": 12,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 2",
+    "content": "A te boldogságod mindennél többet jelent nekem."
+  },
+  {
+    "id": 13,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 3",
+    "content": "Olyan szerencsés vagyok, hogy az enyém vagy."
+  },
+  {
+    "id": 14,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 4",
+    "content": "Nem számít a távolság, mindig itt vagy a szívemben."
+  },
+  {
+    "id": 15,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 5",
+    "content": "Minden egyes nap újra beléd szeretek."
+  },
+  {
+    "id": 16,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 6",
+    "content": "Imádom a hangodat; ez a kedvenc hang számomra a világon."
+  },
+  {
+    "id": 17,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 7",
+    "content": "A kedvenc helyem a világon a karjaidban van."
+  },
+  {
+    "id": 18,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 8",
+    "content": "A mosolyodtól boldogan táncol a szívem."
+  },
+  {
+    "id": 19,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 9",
+    "content": "Még az örökkévalóság sem lenne elég veled."
+  },
+  {
+    "id": 20,
+    "type": "romantic",
+    "emoji": "💖",
+    "title": "Romantic Message 10",
+    "content": "Te vagy az álmom, ami valóra vált."
+  },
+  {
+    "id": 21,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 1",
+    "content": "Már a neved hallatán is mosolygok."
+  },
+  {
+    "id": 22,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 2",
+    "content": "Még a hétköznapi pillanatokat is különlegessé teszed."
+  },
+  {
+    "id": 23,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 3",
+    "content": "A nevetésed a kedvenc dallamom."
+  },
+  {
+    "id": 24,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 4",
+    "content": "Imádok benned minden apróságot."
+  },
+  {
+    "id": 25,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 5",
+    "content": "Te vagy a napom legjobb része, mindennap."
+  },
+  {
+    "id": 26,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 6",
+    "content": "Köszönöm, hogy ilyen csodálatos vagy."
+  },
+  {
+    "id": 27,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 7",
+    "content": "Jobban szeretlek, mint ahogy a csoki szereti a tejet."
+  },
+  {
+    "id": 28,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 8",
+    "content": "Te vagy a napi boldogságom."
+  },
+  {
+    "id": 29,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 9",
+    "content": "Minden szerelmes dal rólad jut eszembe."
+  },
+  {
+    "id": 30,
+    "type": "sweet",
+    "emoji": "🥰",
+    "title": "Sweet Message 10",
+    "content": "Veled édesebb az élet."
+  },
+  {
+    "id": 31,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 1",
+    "content": "Küldj egy szelfit a legszélesebb mosolyoddal!"
+  },
+  {
+    "id": 32,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 2",
+    "content": "Kihívlak, hogy egy órán át csak emojikkal üzenj nekem."
+  },
+  {
+    "id": 33,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 3",
+    "content": "Találd ki, mit viselek most! (Csak rossz válaszok jöhetnek!)"
+  },
+  {
+    "id": 34,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 4",
+    "content": "Lepj meg: válassz nekem ma estére egy véletlenszerű dalt!"
+  },
+  {
+    "id": 35,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 5",
+    "content": "Tartsunk ma este videóhívást egy pokrócvár alatt, csak mert miért ne."
+  },
+  {
+    "id": 36,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 6",
+    "content": "Súgj egy titkot a következő hangüzenetedben."
+  },
+  {
+    "id": 37,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 7",
+    "content": "Találj ki most rögtön egy bolondos becenevet nekem. Hajrá!"
+  },
+  {
+    "id": 38,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 8",
+    "content": "Elrejtettem egy csókot ebben az üzenetben, keresd meg! 💋"
+  },
+  {
+    "id": 39,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 9",
+    "content": "Küldd el az első emojit, ami eszedbe jut rólam."
+  },
+  {
+    "id": 40,
+    "type": "playful",
+    "emoji": "😜",
+    "title": "Playful Message 10",
+    "content": "Tervezzünk egy virtuális mozis estét: te választod a filmet, én hozom a popcornt."
+  },
+  {
+    "id": 41,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 1",
+    "content": "Ha a hiányolásod sport lenne, világbajnok lennék."
+  },
+  {
+    "id": 42,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 2",
+    "content": "Úgy illünk össze, mint a csoki és a tej (szó szerint!)."
+  },
+  {
+    "id": 43,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 3",
+    "content": "Te vagy az egyetlen, aki képes a telefonon keresztül is elpirítani."
+  },
+  {
+    "id": 44,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 4",
+    "content": "A párnám már unja, hogy úgy teszek, mintha te lennél."
+  },
+  {
+    "id": 45,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 5",
+    "content": "Ne legyél már ilyen imádnivaló – kifogyok a kifogásokból, hogy húzzalak."
+  },
+  {
+    "id": 46,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 6",
+    "content": "Szerencséd, hogy ilyen cuki vagy; különben megnyerném az összes vitánkat."
+  },
+  {
+    "id": 47,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 7",
+    "content": "Még akkor is szeretlek, amikor éhes és morcos vagy. Na, ez az igazi szerelem."
+  },
+  {
+    "id": 48,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 8",
+    "content": "A videóhívásainkhoz popcorn kéne, annyira a kedvenc műsorom."
+  },
+  {
+    "id": 49,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 9",
+    "content": "Próbáltam dalt írni neked, de végül csak annyit ismételgettem benne: szeretlek."
+  },
+  {
+    "id": 50,
+    "type": "funny",
+    "emoji": "😂",
+    "title": "Funny Message 10",
+    "content": "Te vagy a WiFi a szívemnek – teljesen nélkülözhetetlen és egy kis varázslat."
+  },
+  {
+    "id": 51,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 1",
+    "content": "Nem tudok ma koncentrálni; a legutóbbi szelfid jár a fejemben."
+  },
+  {
+    "id": 52,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 2",
+    "content": "Ne foglald le minden gondolatomat – tudod, volna más dolgom is. 😉"
+  },
+  {
+    "id": 53,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 3",
+    "content": "Itt lett hirtelen meleg, vagy csak írtál nekem?"
+  },
+  {
+    "id": 54,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 4",
+    "content": "Azt hiszem, túlmelegszik a telefonom a forró üzeneteidtől."
+  },
+  {
+    "id": 55,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 5",
+    "content": "Készüljön a következő csókod – gyakorlom rá a meglepett arcomat."
+  },
+  {
+    "id": 56,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 6",
+    "content": "Volt egy jó csajozós dumám, de ahogy megláttalak online, elfelejtettem."
+  },
+  {
+    "id": 57,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 7",
+    "content": "Van fogalmad róla, mennyire imádnivaló vagy? Egy barátom kérdezi (én)."
+  },
+  {
+    "id": 58,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 8",
+    "content": "Új kedvenc hobbim: elérni, hogy elpirulj."
+  },
+  {
+    "id": 59,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 9",
+    "content": "Nem tudom eldönteni, most a mosolyodra vagy a csókodra vágyom jobban. Talán mindkettőre."
+  },
+  {
+    "id": 60,
+    "type": "flirty",
+    "emoji": "😉",
+    "title": "Flirty Message 10",
+    "content": "Ha véget ér ez a távolság, tartozol egy teljes hétvégés összebújással."
+  },
+  {
+    "id": 61,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 1",
+    "content": "Mi az az egy álom, amit mindenképpen szeretnél egyszer közösen megélni velünk?"
+  },
+  {
+    "id": 62,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 2",
+    "content": "Ha egy napra teleportálhatnánk, hová mennénk el először együtt?"
+  },
+  {
+    "id": 63,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 3",
+    "content": "Mi az a dal, amiről mindig én jutok eszedbe?"
+  },
+  {
+    "id": 64,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 4",
+    "content": "Van valami apróság bennem, amit meglepően aranyosnak találsz?"
+  },
+  {
+    "id": 65,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 5",
+    "content": "Mit látsz magad előtt, amikor elképzeled, hol leszünk tíz év múlva?"
+  },
+  {
+    "id": 66,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 6",
+    "content": "Melyik közös emlékünk a kedvenced?"
+  },
+  {
+    "id": 67,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 7",
+    "content": "Ha lenne címünk a szerelmi történetünkhöz, mi lenne az?"
+  },
+  {
+    "id": 68,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 8",
+    "content": "Mi az az új dolog, amit szívesen kipróbálnál velem?"
+  },
+  {
+    "id": 69,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 9",
+    "content": "Három szóval hogyan jellemeznéd a kapcsolatunkat?"
+  },
+  {
+    "id": 70,
+    "type": "curious",
+    "emoji": "❓",
+    "title": "Curious Message 10",
+    "content": "Mi az a kis dolog bennem, ami most a legjobban hiányzik neked?"
+  },
+  {
+    "id": 71,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 1",
+    "content": "Csak szólok, azt az illatot viselem, amit annyira szeretsz... várom a reakciódat."
+  },
+  {
+    "id": 72,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 2",
+    "content": "Lehet, hogy épp az utolsó csókunkra gondolok. (Segítek: igen.)"
+  },
+  {
+    "id": 73,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 3",
+    "content": "Vigyázz, a következő üzenetem lehet, hogy túlságosan forró lesz."
+  },
+  {
+    "id": 74,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 4",
+    "content": "Számolom a napokat, hogy újra csókokkal boríthassam a nyakadat."
+  },
+  {
+    "id": 75,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 5",
+    "content": "Az a kedvenc nappali ábrándom, ahogy a kezeid rajtam vándorolnak."
+  },
+  {
+    "id": 76,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 6",
+    "content": "Van egy meglepetésem a számodra legközelebb, amikor videóhívunk 😉."
+  },
+  {
+    "id": 77,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 7",
+    "content": "A reggeli hangod titokban teljesen beindít."
+  },
+  {
+    "id": 78,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 8",
+    "content": "Bárcsak most az ágyba húzhatnálak magad mellé."
+  },
+  {
+    "id": 79,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 9",
+    "content": "Nyugodtan álmodj rólam valami pajzánat. Én biztos, hogy rólad fogok (álmodni)."
+  },
+  {
+    "id": 80,
+    "type": "naughty",
+    "emoji": "😈",
+    "title": "Naughty Message 10",
+    "content": "Már a gondolattól is az ajkamba harapok, ha rád gondolok. Te aztán tudsz bajt keverni 😉."
+  },
+  {
+    "id": 81,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 1",
+    "content": "Lassúzni szeretnék veled, még ha most egyedül a nappalimban táncolok is."
+  },
+  {
+    "id": 82,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 2",
+    "content": "A gondolat, hogy átölelsz, az én menedékem."
+  },
+  {
+    "id": 83,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 3",
+    "content": "A legutóbbi hangüzeneted még mindig bizsergeti a fülemet."
+  },
+  {
+    "id": 84,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 4",
+    "content": "Amikor lehunyom a szemem, érzem, hogy az ujjaid összefonódnak az enyéimmel."
+  },
+  {
+    "id": 85,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 5",
+    "content": "A szavaid puha csókokat rajzolnak a lelkemre."
+  },
+  {
+    "id": 86,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 6",
+    "content": "A bőröm úgy vágyik az érintésedre, ahogy a virágok a napfényre."
+  },
+  {
+    "id": 87,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 7",
+    "content": "Minden meg nem írt szerelmes levelem benne van abban, ahogyan megcsókollak."
+  },
+  {
+    "id": 88,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 8",
+    "content": "Már a puszta elképzeléstől is kiráz a hideg, ahogy a lélegzeted a nyakamhoz ér."
+  },
+  {
+    "id": 89,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 9",
+    "content": "Minden éjjel állandó vendég vagy az álmaimban."
+  },
+  {
+    "id": 90,
+    "type": "sensual",
+    "emoji": "💋",
+    "title": "Sensual Message 10",
+    "content": "A pillantásod olyan, mint egy meleg simítás, amit alig várom, hogy újra érezhessek."
+  },
+  {
+    "id": 91,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 1",
+    "content": "Még a legnehezebb napjaidon is melletted vagyok, és lélekben fogom a kezed."
+  },
+  {
+    "id": 92,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 2",
+    "content": "Nagyon büszke vagyok arra, milyen erős vagy."
+  },
+  {
+    "id": 93,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 3",
+    "content": "A távolság kemény próba, de mi is azok vagyunk."
+  },
+  {
+    "id": 94,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 4",
+    "content": "Bármi történjen, egy hívásnyira mindig itt vagyok."
+  },
+  {
+    "id": 95,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 5",
+    "content": "Bármikor támaszkodhatsz rám, még ha óceánok választanak is el."
+  },
+  {
+    "id": 96,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 6",
+    "content": "Az érzéseid fontosak, és itt vagyok, hogy meghallgassalak."
+  },
+  {
+    "id": 97,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 7",
+    "content": "Ha magányosnak érzed magad, jusson eszedbe, hogy ugyanazon égbolt alatt vagyunk."
+  },
+  {
+    "id": 98,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 8",
+    "content": "A könnyeid is drágák nekem – itt vagyok, hogy mindet letöröljem."
+  },
+  {
+    "id": 99,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 9",
+    "content": "Mindent együtt küzdünk le, szép lassan, lépésről lépésre."
+  },
+  {
+    "id": 100,
+    "type": "comforting",
+    "emoji": "🤗",
+    "title": "Comforting Message 10",
+    "content": "Te jelented nekem a világot, soha ne felejtsd el."
+  },
+  {
+    "id": 101,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 1",
+    "content": "Köszönöm, hogy mindig mellettem állsz, és hogy ilyen csodálatos vagy."
+  },
+  {
+    "id": 102,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 2",
+    "content": "A támogatásod és a szereteted mindennél többet jelent számomra."
+  },
+  {
+    "id": 103,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 3",
+    "content": "A mosolyod mindig feldobja a napomat."
+  },
+  {
+    "id": 104,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 4",
+    "content": "Köszönöm, hogy megosztod velem az életedet és a szívedet."
+  },
+  {
+    "id": 105,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 5",
+    "content": "A kedvességed és a figyelmességed mindig meglep."
+  },
+  {
+    "id": 106,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 6",
+    "content": "A közös pillanataink örökre a szívemben maradnak."
+  },
+  {
+    "id": 107,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 7",
+    "content": "A szereteted olyan, mint egy meleg takaró a hideg napokon."
+  },
+  {
+    "id": 108,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 8",
+    "content": "A közelséged mindig megnyugtat."
+  },
+  {
+    "id": 109,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 9",
+    "content": "A szíved aranyból van, és ezt mindenki látja."
+  },
+  {
+    "id": 110,
+    "type": "appreciation",
+    "emoji": "💖",
+    "title": "Appreciation Message 10",
+    "content": "Köszönöm, hogy vagy nekem, és hogy ilyen különleges kapcsolatunk van."
+  },
+  {
+    "id": 111,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 1",
+    "content": "Bármikor szükséged van rám, csak egy üzenetnyire vagyok."
+  },
+  {
+    "id": 112,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 2",
+    "content": "A nehéz időkben is itt vagyok, hogy támogassalak."
+  },
+  {
+    "id": 113,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 3",
+    "content": "A közös nevetések és könnyek mind hozzájárulnak a kapcsolatunkhoz."
+  },
+  {
+    "id": 114,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 4",
+    "content": "A szívem mindig nyitva áll előtted, bármilyen helyzetben."
+  },
+  {
+    "id": 115,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 5",
+    "content": "A barátságunk a legnagyobb kincs számomra."
+  },
+  {
+    "id": 116,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 6",
+    "content": "A közös emlékek mindig erőt adnak a nehéz pillanatokban."
+  },
+  {
+    "id": 117,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 7",
+    "content": "A szereteted és támogatásod mindig velem van."
+  },
+  {
+    "id": 118,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 8",
+    "content": "A közös kalandjaink mindig emlékeztetnek arra, hogy együtt erősebbek vagyunk."
+  },
+  {
+    "id": 119,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 9",
+    "content": "A barátságunk olyan, mint egy erős kötelék, ami sosem szakad el."
+  },
+  {
+    "id": 120,
+    "type": "support",
+    "emoji": "🤝",
+    "title": "Support Message 10",
+    "content": "A közös pillanatok mindig emlékeztetnek arra, hogy mennyire fontos vagy nekem."
+  }
+]

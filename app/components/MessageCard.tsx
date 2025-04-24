@@ -30,7 +30,7 @@ export default function MessageCard({ message, unlocked, onUnlock }: Props) {
       className="bg-cream shadow-lg rounded-2xl p-6 cursor-pointer text-center flex flex-col gap-4"
       onClick={handleClick}
     >
-      <h3 className="text-2xl font-semibold mb-2">
+      <h3 className="text-brown font-semibold mb-2">
         {message.emoji} {title}
       </h3>
       {unlocked ? (

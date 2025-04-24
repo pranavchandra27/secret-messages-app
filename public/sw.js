@@ -2,10 +2,21 @@ const CACHE_NAME = "sum-cache-v1";
 const ASSETS = [
   "/",
   "/manifest.json",
-  "/styles/global.css",
-  "/build/_assets/entry-client-*.js", // adjust to match your built JS
-  "/data/messages.json", // so messages load offline
-  // add any other static assets: fonts, icons, etc.
+  "/build/client/assets/root-CLEBrOkX.css",
+  "/build/client/assets/config-C1Pkttth.js",
+  "/build/client/assets/animations-DcAhDQ_x.js",
+  "/build/client/assets/AudioContext-B0GR_K4C.js",
+  "/build/client/assets/settings-Bu67Qa4q.js",
+  "/build/client/assets/_index-BaDUIVsh.js",
+  "/build/client/assets/entry.client-C-nAjFD-.js",
+  "/build/client/assets/index-7zqVQZSl.js",
+  "/build/client/assets/messages-BIilk9x0.js",
+  "/build/client/assets/proxy-CwAfaBRr.js",
+  "/build/client/assets/components-CIIfDeaW.js",
+  "/app/data/messages.json",
+  "/app/data/messages.en.json",
+  "/app/data/messages.hu.json",
+  "/icons/icon.svg",
 ];
 
 self.addEventListener("install", (event) => {
@@ -17,15 +28,26 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
-  event.respondWidth(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) return cachedResponse;
-      return fetch(event.request).then((response) => {
-        return caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, response.clone());
+  if (
+    url.origin === self.location.origin &&
+    (url.pathname === "/" ||
+      url.pathname === "/manifest.json" ||
+      url.pathname.startsWith("/build/") ||
+      url.pathname.startsWith("/icons/") ||
+      url.pathname.endsWith(".json"))
+  ) {
+    event.respondWith(
+      caches.match(event.request).then((cached) => {
+        if (cached) return cached;
+        return fetch(event.request).then((response) => {
+          // cache dynamically
+          const copy = response.clone();
+          caches
+            .open(CACHE_NAME)
+            .then((cache) => cache.put(event.request, copy));
           return response;
         });
-      });
-    })
-  );
+      })
+    );
+  }
 });
